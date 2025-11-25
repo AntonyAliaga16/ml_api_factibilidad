@@ -1,0 +1,16 @@
+{
+  "archivo": "proforma63.docx",
+  "text_snippet": "Srs. Ingenieros UNI vitarte\tChosica, 17 de febrero de 2025 Presupuesto Techado con malla raschel Medidas: Longitud: 10 Mts. Ancho: 9 Mts. Materiales: Estructuras: Tubo cuadrado 3” x 2.0 (Columnas) Tubo rectangular 4” x 2.0 (Vigas) Pintura anticorrosiva Soldadura 6011 1/8” Precio a todo costo (Incluye instalación de malla)\tS/. 1,800.00 Cobertura: Malla raschel verde-negro al 95% nacional Cinta polipropileno Cable acerado con revestimiento plástico de ¼” Ojalillos Nº 24 Hilo Nº30 (Costura industrial) Driza de ¼” Precio a todo costo\tS/. 1,300.00 Retiro de desechos Costo de transporte\tS/. 200.00 Cargadores x 2\tS/. 200.00 Costo total\tS/. 3,500.00 Tiempo de entrega: 5 días Nota: Presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "mat_cercano_a_materiales",
+    "tiempo_por_pattern",
+    "corrigiendo_material_mayor_que_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 3500.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 5.0
+  }
+}

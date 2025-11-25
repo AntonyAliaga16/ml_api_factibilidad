@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma51.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\tChosica, 20 de mayo del 2025 Presupuesto Reparaciones menores Costos Refuerzo de reja en ventana de dirección:\t\t\t\tS/. 40.00 Enrejado de válvula de agua principal:\t\t\t\t\tS/. 160.00 Adaptación de caja de control con bisagras:\t\t\t\tS/. 60.00 Refuerzo de baranda en zona de evacuación:\t\t\t\tS/. 130.00 Fabricación de tapa metálica para pozo de inspección:\t\t\tS/. 80.00 Refuerzo de baranda en piso 2 (aulas):\t\t\t\t\tS/. 60.00 Fijación de reja interior con tarugos metálicos:\t\t\t\tS/. 40.00 TOTAL          ------------------------------------------------------------------------------     S/. 570.00 + IGV            -------------------------------------------------------------------------------    S/. 102.60 Costo Total ------------------------------------------------------------------------",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 672.6,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

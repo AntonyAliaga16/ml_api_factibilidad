@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma91.docx",
+  "text_snippet": "ASPECTOS COMERCIALES: Tiempo de entrega\t: 15Días Validez de oferta\t: 30 Días Forma de Pago\t: 50% contrato / 50% Contra entrega Nota: **Los valores incluyen I.G.V. ***Los precios están expresados en NUEVOS SOLES Proyectos Y Servicios De Ingeniería En Estructuras Metálicas  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estru",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 525.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 15.0
+  }
+}

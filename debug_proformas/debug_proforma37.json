@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma37.docx",
+  "text_snippet": "Sres.  Cia.Bomberos Chaclacayo                                                                                                  Chosica, 04 de enero del 2025 Presupuesto Ampliación de techo Medidas: Ancho     = 2,0 Mts. Longitud = 9,0 Mts. Cantidad =2 (ambos lados) Materiales: Tubo rectangular de 40 mm x 60 mm x 2.0 (vigas) Tubo rectangular de 2” x 1” x 2.0 (correas) Pernos punta broca herméticos (sujeción) Costos: Costo aproximado de materiales \tS/.      900.00 Costo mano de obra ……………………………………………………S/.  1,100.00 Total\tS/.   2,000.00 Tiempo de entrega: 4 días Nota: El presente presupuesto incluye construcción e instalación de estructura metálica y cobertura, no incluye las 12 planchas de plásticos - Presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 2000.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 4.0
+  }
+}

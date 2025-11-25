@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma80.docx",
+  "text_snippet": "Miércoles, 16 de abril del 2015 Presupuesto Estructura metálica y cobertura de malla raschel al 80% de sombra Medidas: Área 1 = 10 Mts. De longitud x 7Mts. De Ancho Materiales: Tubo redondo 2” (Postes) Tubo rectangular de 60 mm. x 40 mm. x 2.0 mm. (Viga superior) Electrodos 6011 x 1/8” Pintura anticorrosiva de acabado y solvente Cemento y arena gruesa Malla raschel al 80% sombra (Color Verde) 1 Arco completo de 3 Mts. De altura 1 arco de 1 Mt de altura * Costo de ambos arcos        =\tS/.590.00 (incluye cimiento de cemento) * Costo de malla raschel       :\tÁrea 9 Mts. X 7 Mts. =\t       63Mts.2 x Mt2 \t =  S/.  11.00 =\tS/.630.00 Instalación \t =\tS/.200.00 Resumen Estructura metálica \t=\tS/.    590.00 Malla Raschel e instalación\t=\tS/.    893.00 Total\t=\tS/.1,483.00 * Tiempo de entrega = 5 días No",
+  "used_ocr": false,
+  "reasons": [
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 5.0
+  }
+}

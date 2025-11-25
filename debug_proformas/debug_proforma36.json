@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma36.docx",
+  "text_snippet": "Sres.  Cia.Bomberos Chaclacayo                                                                                                  Chosica, 13 de enero del 2025 Presupuesto Ampliación de techo en zona de acceso y almacenamiento Medidas: Lado A: Ancho     = 2,5 Mts. X Longitud = 8,0 Mts. Lado B: Ancho     = 3,0 Mts. X Longitud = 10,0 Mts. Cantidad =2 (ambos lados) Materiales: Tubo rectangular de 50 mm x 80 mm x 2.5 mm. (vigas principales) Tubo rectangular de 2” x 1” x 2.0 mm. (correas) Platina de 1” × 3/16” (refuerzo en puntos de anclaje) Pernos punta broca herméticos (sujeción) Pintura anticorrosiva Costos: Costo aproximado de materiales \tS/.  1,150.00 Costo mano de obra ……………………………………………………S/.  1,550.00 Total\tS/.   2,700.00 Tiempo de entrega: 5 días Nota: El presente presupuesto incluye cons",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 2700.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 5.0
+  }
+}

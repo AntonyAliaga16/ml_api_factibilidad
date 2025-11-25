@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma56.docx",
+  "text_snippet": "Jueves, 17 de noviembre del 2024 Presupuesto Construcción e instalación de marco y rejilla metálica Medidas: Ancho: 0.37 Mts. Largo: 0.70 Mts. Materiales: Angulo de 2” x 2” x ¼” (Marco) Platina de 2 ½” x ½” (Rejilla) Fierro redondo liso de 5/8” Pintura anticorrosiva Costos (x 1 reja): X Construcción de marco y reja de platina (Separación de 5 Cms.) y fierro liso (Separación de 13 Cms.) Costo Aproximado de materiales \tS/. 200.00 Costo de mano de obra\t\tS/. 200.00 Total\t\tS/. 400.00 Tiempo de entrega: 1 Día Nota: Incluye instalación – Presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 400.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 1.0
+  }
+}

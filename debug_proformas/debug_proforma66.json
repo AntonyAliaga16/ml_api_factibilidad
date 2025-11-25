@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma66.docx",
+  "text_snippet": "Srs. Casas\tChosica, 27 de marzo de 2025 Presupuesto Techado para rampa Medidas: Longitud: 18 Mts. Ancho: 1.80 Mts. Materiales: Tubo redondo de 1 1/2” ext. X 2.0 Tubo cuadrado de 1” x 1” x 2.0 Calaminas galvanizadas 1.10 x 3.0 Seguros de calaminas (Pernos herméticos) Soldadura 6011 de 1/8” Pintura anticorrosiva Costos: Costo aprox. Materiales\tS/.    850.00 Costo de mano de obra\tS/.    820.00 Costo total\tS/. 1,670.00 Tiempo de entrega: 4 Días Nota: el presente presupuesto es a todo costo",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 1670.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 4.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma55.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\tChosica, 30 de mayo del 2025 Presupuesto Reja Protectora de Ventana Total Medidas:\t                                      Lado 1 (oficina)                Lado 2 (patio)               Lado 3 (baño) 2do piso                               10 metros                           15 metros                     10 metros 3er piso                                10 metros                           15 metros                     10 metros 4to piso                                10 metros                           15 metros                      ----------- Total metros: 95 Mts. Altura pro medio: 1.5 Mts. Materiales: Cuadrado solido de 3/8” Soldadura 6011 x 1/8” Pintura anticorrosiva y de acabado Disolvente Costos: El costo por metro de 1,5 de altura es de \tS/.       40.00 El costo po",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 4484.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 7.0
+  }
+}

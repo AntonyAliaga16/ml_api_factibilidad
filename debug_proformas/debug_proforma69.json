@@ -1,0 +1,15 @@
+{
+  "archivo": "proforma69.docx",
+  "text_snippet": "Chosica, 23 de noviembre del 2024 Presupuesto Techo de patio Medidas: Ancho: 5 Mts. Largo: 9 Mts. Materiales: Tubo cuadrado de 2” x 1.8 (Vigas) Tubo cuadrado de 1 ¼” x 1.5 (Correas) Pintura Anticorrosiva – Thinner Soldadura 6011 1/8” INDURA Planchas de 3 Mts. X 1.10 (Techito_Pesado) Bastones de sujeción Costos: Costo Aproximado de Materiales\tS/.   1,000.00 Costo de Mano de Obra\tS/.      500.00 Total,\tS/.   1,500.00 Tiempo de entrega:  04 días Nota: el presente presupuesto es a todo costo incluido instalación de cobertura, Prepuesto bajo RHE.",
+  "used_ocr": false,
+  "reasons": [
+    "mat_cercano_a_materiales",
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": 6011.0,
+    "tiempo_candidate": 4.0
+  }
+}

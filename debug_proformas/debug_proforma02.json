@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma02.docx",
+  "text_snippet": "Servicio Mant. Industrial y reparaciones en Gral. TORNO - FRESADORA Estructuras Metálicas SOLDADURA ELECTRICA Y AUTOGENA  R.U.C. 10068110217 FABRICACION DE REPUESTOS EN GRAL.  CONSUCODE 80088260 TALADRO  MANTENIMIENTO DE EQUIPOS MINEROS Presupuesto Objeto del trabajo: Construcción e instalación de Estructura Metálica para Techado Industrial Especificaciones Técnicas: • Área total: 80 m² (10m x 8m) • Altura libre: 4.5 m • Tipo de estructura: Pórticos metálicos con cobertura de calamina ondulada galvanizada • Incluye instalación completa y soldadura en obra Materiales: • Perfil H 100x50x3 mm (columnas principales) • Tubo cuadrado 2”x2”x2 mm (vigas secundarias) • Calamina galvanizada N° 26 (cubierta) • Tornillería galvanizada y pernos de anclaje • Pintura anticorrosiva base zinc y esmalte gri",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 22800.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 15.0
+  }
+}

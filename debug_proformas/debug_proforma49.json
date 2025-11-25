@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma49.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\tChosica, 30 de mayo del 2025 Presupuesto COSTOS Tubos para Net de Voleibol                                                          S/.130.00 GASFITERÍA Cambio de “T” en techo Tubo de abasto tanque Grampa de lavadero y sellar unión a trampas                            S/.150,00 TOTAL      ---------------------------------------------------------------   S/.     280, 00 + IGV --------------------------------------------------------------------- S/.        50, 00 Costo Total ------------------------------------------------------------- S/.       330.00 Nota: El presente presupuesto es a todo costo, presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 330.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

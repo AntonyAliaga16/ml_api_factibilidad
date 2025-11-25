@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma33.docx",
+  "text_snippet": "Sr. Hector Quiñones\tLima, 22 de julio de 2025 Presupuesto (Construcción e instalación de malla raschel) Medidas: Ancho: 18 Mts. Longitud: 76 Mts. Área: 1368 Mts2. Materiales: Malla raschel al 90% de sombra color negro Cable acerado de ¼” Cangrejos de 3/16” Cinta de 1 ½” x 2 m.m. Ojalillos Nº 26 Driza de ¼” (Soguilla blanca) Hilo Nº 30 (Industrial) Tensionadores de ½” Costos: Costo aproximado de materiales\tS/.\t5,550.00 Costo de mano de obra\tS/.\t2,500.00 Transporte\tS/.\t200.00 S/.\t8,250.00 IGV\tS/.\t1,485.00 Total \tS/.\t9,835.00 Tiempo de entrega: 12 Días Nota: El presente presupuesto es a todo costo la costura total es integra de todo. No incluye instalación.",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 9835.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 12.0
+  }
+}

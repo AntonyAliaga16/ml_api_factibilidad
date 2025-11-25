@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma54.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\tChosica, 20 de mayo del 2025 Presupuesto Rejas completas para ventana Medidas: 1er piso\t: 12 metros (almacén) + 10 metros (pasillo) 2do piso\t: 12 metros (aula) + 10 metros (baño) 3er piso\t: 12 metros (aula) 4to piso\t: 10 metros (aula) Total metros: 66 Mts. Altura pro medio: 1.6 Mts. Materiales: Cuadrado solido de 1/2” Soldadura 6011 x 1/8” Pintura anticorrosiva y de acabado Disolvente Costos: El costo por metro de 1,6 de altura es de \tS/.       45.00 El costo por 66 metros es de \tS/. 2,970.00 + IGV  -------------------------------------------------------------------------S/.     534.60 Costo Total ------------------------------------------------------------------S/. 5,504.00 Tiempo de entrega: 6 días Construcción: 3 días Instalación:     3 días Nota: El presente pres",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 5504.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 6.0
+  }
+}

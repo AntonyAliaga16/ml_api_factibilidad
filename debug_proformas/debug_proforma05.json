@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma05.docx",
+  "text_snippet": "Presupuesto Construcción e instalación de rejas de seguridad Medidas: Altura: 2 Mts. Largo individual de panel (Columna a columna): 4.4 Mts. Cantidad de paneles: 9 Longitud total: 40.0 Mts. Materiales: Tubo cuadrado de 4” x 4” x 2.0 (Columnas) Tubo rectangular de 4” x 2” x 2.0 (Horizontal inferior) Tubo redondo de 1” x 2.0 (Horizontal superior) Tubo rectangular de 2” x 1” x 2.0 (verticales) Zincromato y thinner (pintura anticorrosiva) Electrodo 6011 1/8” Discos de 14” y de 4 ½” Hoja de sierra Precio a todo costo por panel de 4.4 Mts. x 2.0 Mts. de altura\tS/.  1,300.00 Total\tS/.11,700.00 Forma de pago: a tratar Tiempo de entrega: 10 días Nota: El presente presupuesto es a todo costo incluido la instalación, la presente proforma es válida por 30 días y puede ser reconsiderada previo acuerdo ",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 11700.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 10.0
+  }
+}

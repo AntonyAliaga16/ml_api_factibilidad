@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma19.docx",
+  "text_snippet": "Srs. Colegio TOCACHE\tChosica, 21 de marzo de 2025 Presupuesto Estructura metálica para malla raschel Medidas: Longitud: 38 Mts. Ancho: 28 Mts. Altura: 6Mts. Materiales: Estructuras Metálicas: Tubo cuadrado de 2” x 2.0 Tubo rectangular de 4” x 2” x 2.0 Electrodos 6011 x 1/8” Pintura anticorrosiva y thinner Agregados (Cemento, arena gruesa, piedra chancada) Costos: Costo aprox. Materiales\tS/.   7,240.00 Costo de mano de obra\tS/. 10,000.00 Costo total\tS/. 17,240.00 Nota: En los 28 metros de ancho se distribuirán 6 columnas reticuladas de 6 Mts. De altura x 2 lados (Frente - frente) 12 columnas, y en el largo de 38 metros 2 columnas (Frente - frente) para colocar cable y evitar pandeo de malla (o panzeo)",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 17240.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

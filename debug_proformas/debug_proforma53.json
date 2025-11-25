@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma53.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\t\tChosica, 20 de mayo del 2025 Presupuesto Reja Protectora de Ventana Parcial (Solo en hojas deslizantes) Medidas: 1er piso\t: 5 metros (taller) 2do piso\t: 6 metros (taller) 3er piso\t: 6 metros (taller) 4to piso\t: 5 metros (taller) Total metros: 22 Mts. Altura pro medio: 1.5 Mts. Materiales: Cuadrado solido de 3/8” Soldadura 6011 x 1/8” Pintura anticorrosiva y de acabado Disolvente Costos: El costo por metro de 1,5 de altura es de \tS/.      55.00 El costo por 42 metros es de \tS/. 1,210.00 + IGV  -------------------------------------------------------------------------S/.     217.00 Costo Total ------------------------------------------------------------------S/. 1,427.00 Tiempo de entrega: 3 días Construcción: 2 días Instalación:     1 días Nota: El presente presupuest",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 1427.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 3.0
+  }
+}

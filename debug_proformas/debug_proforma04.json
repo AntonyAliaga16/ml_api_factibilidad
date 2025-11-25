@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma04.docx",
+  "text_snippet": "Presupuesto Construcción e instalación de portones Medidas: Portón corredizo: 6 Mts. x 4 Mts. Portón de bisagra (pivotante): 4 Mts. x 4Mts. Materiales: Tubo cuadrado de 4” x 4” x 2.0 (perímetro de portón) Tubo rectangular de 4” x 2” x 2.0 (horizontal inferior) Tubo redondo de 1” x 2.0 (horizontal superior) Tubo rectangular de 2” x 1” x 2.0 (verticales) Zincromato y thinner (pintura anticorrosiva) Electrodo 6011 de 1/8” Discos de 14” y de 4 ½” Hojas de sierra Costo de portón corredizo de 6 Mts. x 4Mts. \tS/.4,100.00 Costo de portón de bisagra de 4 Mts. x 4 Mts.\tS/.2,900.00 Costo total.\tS/.7,000.00 Tiempo de entrega: 10 días Nota: El presente presupuesto es a todo costo incluido la instalación, la presente proforma es válida por 30 días y puede ser reconsiderada previo acuerdo en caso de ser ",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 7000.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 10.0
+  }
+}

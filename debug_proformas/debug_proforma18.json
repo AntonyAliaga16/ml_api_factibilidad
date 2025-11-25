@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma18.docx",
+  "text_snippet": "ASPECTOS COMERCIALES: Tiempo de entrega\t: 20 Días Validez de oferta\t: 30 Días Forma de Pago\t: 50% contrato / 50% Contra entrega Nota: **Los valores no incluyen I.G.V. ***Los precios están expresados en NUEVOS SOLES ****No incluye electrodos citochrom 134 Proyectos Y Servicios De Ingeniería En Metalmecánica  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica  Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En M",
+  "used_ocr": false,
+  "reasons": [
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 20.0
+  }
+}
