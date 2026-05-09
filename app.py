@@ -8,101 +8,139 @@ import os
 MODEL_PATH = "modelo_factibilidad.pkl"
 
 app = Flask(__name__)
-CORS(app)  # permite llamadas desde tu app móvil
+CORS(app)
 
-# Cargar modelo (si existe)
+# CARGAR MODELO
 model = None
+
 try:
     model = joblib.load(MODEL_PATH)
-    print(f"✅ Modelo cargado desde {MODEL_PATH}")
+    print(f"Modelo cargado desde {MODEL_PATH}")
 except Exception as e:
-    print(f"⚠️ No se pudo cargar el modelo: {e}")
+    print(f"No se pudo cargar modelo: {e}")
     model = None
 
+# HOME
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
         "status": "ok",
-        "message": "API de predicción de factibilidad lista 🚀",
+        "message": "API Factibilidad funcionando",
         "endpoints": {
             "/ping": "GET",
-            "/predict": "POST JSON {costoTotal,costoMateriales,tiempoEntrega,roi,ccc,icj}"
+            "/predict": "POST"
         }
     })
 
+# PING
 @app.route("/ping", methods=["GET"])
 def ping():
     return jsonify({"message": "pong"})
 
+# PREDICCION
 @app.route("/predict", methods=["POST"])
 def predict():
-    # Si no hay modelo, devolvemos simulación razonable (fallback)
     data = request.get_json() or {}
     try:
         costoTotal = float(data.get("costoTotal", 0))
         costoMateriales = float(data.get("costoMateriales", 0))
         tiempoEntrega = float(data.get("tiempoEntrega", 0))
     except Exception as e:
-        return jsonify({"error": "Campos numéricos inválidos", "detail": str(e)}), 400
+        return jsonify({
+            "error": "Campos inválidos",
+            "detail": str(e)
+        }), 400
 
-    # Si modelo disponible, intentar predecir — en tu caso el modelo puede devolver factible/prob etc.
+    # CALCULOS REALES
+    ganancia = costoTotal - costoMateriales
+    roi = (
+        (ganancia / costoMateriales) * 100
+        if costoMateriales > 0 else 0
+    )
+    mbb = (
+        (ganancia / costoTotal) * 100
+        if costoTotal > 0 else 0
+    )
+
+    # MACHINE LEARNING
+    pred = None
+    prob = None
+
     if model is not None:
         try:
+            # FEATURES PARA ML
             features = np.array([
                 costoTotal,
                 costoMateriales,
                 tiempoEntrega,
-                float(data.get("roi", 0)),
-                float(data.get("ccc", 0)),
-                float(data.get("icj", 0))
+                roi,
+                mbb
             ]).reshape(1, -1)
-
-            pred = None
-            prob = None
-            try:
-                pred = int(model.predict(features)[0])
-            except Exception:
-                pred = None
+            pred = int(model.predict(features)[0])
             try:
                 prob = model.predict_proba(features)[0].tolist()
-            except Exception:
+            except:
                 prob = None
-
-            # Aquí puedes transformar la predicción en texto / indicadores; por ahora devolvemos pred + prob
-            return jsonify({
-                "source": "model",
-                "factible": pred,
-                "probabilidad": prob,
-                "input": {"costoTotal": costoTotal, "costoMateriales": costoMateriales, "tiempoEntrega": tiempoEntrega}
-            })
         except Exception as e:
-            # si algo falla en modelo, caemos a fallback
-            print("Error al predecir con modelo:", e)
+            print(" Error ML:", e)
 
-    # Fallback: generar indicadores simples y un análisis basado en reglas
-    roi_sim = 100 * ((costoTotal - costoMateriales) / (costoMateriales if costoMateriales > 0 else max(1, costoTotal)))
-    ccc_sim = tiempoEntrega * 1.5
-    icj_sim = (costoTotal - costoMateriales) / (costoTotal if costoTotal > 0 else 1)
-
-    # Reglas simples para el texto (ajusta como quieras)
-    if roi_sim >= 25 and icj_sim >= 1.25 and ccc_sim < 45:
-        analisis = "Altamente factible: retorno alto, buena competitividad y ciclo de caja rápido."
-    elif roi_sim >= 12 and icj_sim >= 1.10:
-        analisis = "Factible con observaciones: positivo pero revisar costos/plazos."
-    elif roi_sim >= 5 and icj_sim >= 1.0:
-        analisis = "Riesgo moderado: viable, puede optimizarse."
+    # ANALISIS
+    if pred == 1:
+        analisis = (
+            "Proyecto factible según el modelo de Machine Learning."
+        )
+    elif pred == 0:
+        analisis = (
+            "Proyecto con riesgo financiero u operativo."
+        )
     else:
-        analisis = "No factible: pérdidas potenciales o competitividad insuficiente."
+        # fallback reglas simples
+        if roi >= 25 and mbb >= 25:
+            analisis = (
+                "Altamente factible y rentable."
+            )
+        elif roi >= 12 and mbb >= 10:
+            analisis = (
+                "Factible con observaciones."
+            )
+        elif roi >= 5:
+            analisis = (
+                "Riesgo moderado."
+            )
+        else:
+            analisis = (
+                "No factible."
+            )
 
+    # RESPUESTA FINAL
     return jsonify({
-        "source": "simulated",
-        "roi": round(roi_sim, 2),
-        "ccc": round(ccc_sim, 2),
-        "icj": round(icj_sim, 2),
-        "analisis": analisis,
-        "input": {"costoTotal": costoTotal, "costoMateriales": costoMateriales, "tiempoEntrega": tiempoEntrega}
-    })
 
+        "source": "model" if pred is not None else "rules",
+
+        # RESULTADOS FINANCIEROS
+        "roi": round(roi, 2),
+        "mbb": round(mbb, 2),
+
+        # IA
+        "factible": pred,
+        "probabilidad": prob,
+
+        # TEXTO
+        "analisis": analisis,
+
+        # INPUTS
+        "input": {
+            "costoTotal": costoTotal,
+            "costoMateriales": costoMateriales,
+            "tiempoEntrega": tiempoEntrega
+        }
+    })
+# RUN
 if __name__ == "__main__":
+
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+
+    app.run(
+        host="0.0.0.0",
+        port=port
+    )
