@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma29.docx",
+  "text_snippet": "Sr. Salazar \tChosica, 7 de julio del 2025 Presupuesto Construcción e instalación de escalera metálica con baranda Medidas: Fondo: 1.5 Mts. Ancho: 2.0 Mts. Altura: 3.0 Mts. Materiales: Tubo de 3” x 2.0 (soporte inferior de escalera) Plancha estriada galvanizada de 2.5 mm. (pasos) Tubo rectangular de 4” x 2” x 2.0 mm. (estructura principal) Tubo redondo de 1 ¼” x 2.0 mm. (baranda) Tubo redondo de 1” x 1.5 mm. (baranda) Platina de 1” x 3/16” (refuerzo) Soldadura 6011 x 1/8” Pintura anticorrosiva Costos: Costo aprox. Materiales\tS/.    950.00 Costo de mano de obra (x3 días)\tS/.    900.00 Costo total\tS/. 1,850.00 Tiempo de entrega: 3 Días Nota: El presente presupuesto es a todo costo (Construcción e instalación)",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 1850.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 3.0
+  }
+}

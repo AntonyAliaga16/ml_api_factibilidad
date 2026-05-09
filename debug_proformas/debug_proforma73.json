@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma73.docx",
+  "text_snippet": "ASPECTOS COMERCIALES Tiempo de entrega\t: 1 días Validez de oferta\t: 7 días Forma de pago\t:  50% contrato / 50% contra entrega Nota: **Los valores no incluyen I.G.V. ***Los precios están expresados en NUEVOS SOLES Proyectos Y Servicios De Ingeniería En Estructuras Metálicas Sunarp 13895691 Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas Sunarp 13895691 Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas Sunarp 13895691 Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas Sunarp 13895691 Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Estructuras Metálicas Sunarp 13895691 Visite: http:/",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 177.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 1.0
+  }
+}

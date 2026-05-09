@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma39.docx",
+  "text_snippet": "Chosica, 10 de febrero del 2025 Presupuesto Barandas de Escalera Señor Cesar Torres Medidas: Baranda 1  = 1,70 Mts. x 0,90 Mts. altura Baranda 2  = 1,70 Mts. x 0,90 Mts. altura diagonal Baranda 3  = 1,40 Mts. x 1,0 Mts. altura diagonal Materiales: Tubo rectangular de 2” x 1” x 1,5 Fierro cuadrado de ½” Soldadura 6011 1/8” Pintura (anticorrosivo) Thinner Costos: Baranda 1 \tS/.     190.00 Baranda 2…………….………………………………………………….…S/.      140.00 Baranda 3……………….………………………………………………….S/.      120.00 Total\tS/.     450.00 Tiempo de entrega: 2 días Nota: El presente presupuesto es a todo costo incluido instalación – Presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 450.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 2.0
+  }
+}

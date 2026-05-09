@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma42.docx",
+  "text_snippet": "Sr. Ingenieros Chosica \tChosica, 06 de junio del 2025 Presupuesto Postes metálicos para red de voleibol y mantenimiento de instalaciones sanitarias COSTOS Tubos metálicos para Net de Voleibol\tS/140.00 Reemplazo de “T” galvanizada en bajante de techo\tS/45.00 Tubo de abasto desde tanque elevado\tS/35.00 Sellado de unión en lavadero y ajuste de trampa\tS/80.00 COSTO TOTAL: S/300.00 Nota: El presente presupuesto es a todo costo, presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_cercano_a_plazo"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 300.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 35.0
+  }
+}

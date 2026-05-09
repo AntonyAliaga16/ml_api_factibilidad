@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma99.docx",
+  "text_snippet": "Proforma juegos mecánicos según modelo Balancín Materiales 4 tubos de Ø de 1” x 1.5 de espesor Soldadura, pintura anticorrosiva y thinner Pintura de acabado a gusto de cliente Precio total a todo costo unitario\tS/.480.00 No incluye madera Trompo  giratorio Materiales 5 tubos de  Ø de 1 1/4\" x 1.8 m.m de espesor 2 platinas de 1 1/2\" x 3/16\" Pintura anticorrosiva, thinner , electrodos Pintura de acabado a gusto de cliente Precio total a todo costo unitario\tS/.620.00 No incluye madera Costo Total: S/1100.00 Nota: es el trompo giratorio del modelo con asientos",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 1100.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

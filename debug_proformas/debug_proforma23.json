@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma23.pdf",
+  "text_snippet": "  Proyectos Y Servicios De Ingeniería En  Metalmecánica    Visite: http://ingmetalmecanicas.blogspot.pe  COTIZACIÓN    N.º 00326     Datos del proveedor:  Razón Social:  INDUSTRIAS K.B.R S.A.C.  Ruc:  20602234151  Telf.:  979416016  Dirección:  Av. Nicolas Ayllón 4253 – Ricardo Palma  E-mail:  rubencalderon_k.b.r@hotmail.com  Hecho por:  Brandon Calderón  Revisado por:  Karol Calderón  Aprobado por:  Rubén Calderón  Datos del cliente  Razón Social:  -  Ruc:  -  Fecha:  28/09/2022  Dirección:  -  Área  -  Solicitado:  Colegio San Francisco Javier  Área:  -  Telf.:  -  ITEM  UNID. CANT.  Descripción  P. UNIT  P. TOTAL                                                                                                                                                                CONSTRUCCION DE E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 10570.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 10.0
+  }
+}

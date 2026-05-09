@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma96.docx",
+  "text_snippet": "Sr. Colegio ingenieros \tChosica, 23 de mayo del 2025 Presupuesto Enrejado metálico de dos jardines de colegio inicial Medidas: Reja 1: Ancho: 2 Mts. Longitud:  3.60 Mts. Altura: 90 Mts. Reja 2: Ancho: 2 Mts. Longitud:  6.20 Mts. Altura: 90 Mts Materiales: Tubo cuadrado de 1 ¼” x 1.2 (reja) Tubo cuadrado de 2” x 1.5 (columnas) Soldadura 6011 x 1/8” Pintura anticorrosiva Thinner Discos de corte Costos: Costo x metro\tS/.       63.00 Costo x 30 metros totales:\tS/.  1,900.00 Tiempo de entrega:  3 días Nota: el presente presupuesto es a todo costo incluida la instalación transporte. Presupuesto bajo RHE",
+  "used_ocr": false,
+  "reasons": [
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 3.0
+  }
+}

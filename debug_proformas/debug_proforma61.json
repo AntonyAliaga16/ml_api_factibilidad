@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma61.docx",
+  "text_snippet": "Sr(a). Lozano\tChosica, 08 de abril de 2025 Presupuesto Techado de tanque de agua Medidas: Longitud: 4.00 Mts. Ancho: 2.50 Mts. Altura: 2.20 Mts. Materiales:\tCant. Tubo cuadrado de 2”x 2” x 2.0 mm (Estructura)\t4 Platina de 2” x 1/4” (Base de apoyo)\t1 Mt. Pintura anticorrosiva\t1/4Gl. Thinner\t1Lt Electrodos 6011 x 1/8” indura\t1Kl. Disco de corte de 4 ½” NORTON\t2 Costos: Costo aprox. Materiales\tS/. 340.00 Costo de mano de obra (x1 Día)\tS/. 180.00 Costo total\tS/. 520.00 Tiempo de entrega: 1 Día Nota: el presente presupuesto es a todo costo (Construcción e instalación)",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 520.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 1.0
+  }
+}

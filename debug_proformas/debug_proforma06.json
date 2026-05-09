@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma06.docx",
+  "text_snippet": "Chosica 01 de MARZO del 2025 PROFORMA Mantenimiento correctivo de maquina zarandeadora Cliente: Razón :Agrocondor Ruc : 20501962598 TRABAJOS A REALIZAR: Realineamiento de tren superior. Fijación de los elementos de fijación del tren superior. Realineamiento de las poleas de trasmisión de ambos  árboles de transmisión ( Tren superior o principal y secundario). Torque de todos los elementos de unión de la máquina. Pruebas finales COSTOS: Traslado de equipos,herramientas y personal …………S/.  500.00 Ejecución del trabajo………………………………………………...S/.   600.00 IGV…………………………………………………………………………….S/.    198.00 COSTO TOTAL………………………………………………………….S/.1,298.00 TIEMPO DE ENTREGA: 01 Día",
+  "used_ocr": false,
+  "reasons": [
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 1.0
+  }
+}

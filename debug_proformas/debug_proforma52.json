@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma52.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\tChosica, 20 de mayo del 2025 Presupuesto Postes de red deportiva y mantenimiento de sistema sanitario COSTOS Tubos para Net de Voleibol                                                          S/.140.00 GASFITERÍA Cambio de “T” galvanizada en bajante:\tS/. 50.00 Instalación de tubo de abasto desde cisterna:\tS/. 40.00 Sellado de lavadero y ajuste de trampa:\tS/. 90.00 TOTAL      ---------------------------------------------------------------   S/.     320.00 + IGV --------------------------------------------------------------------- S/.        57.60 Costo Total ------------------------------------------------------------- S/.      377.60 Nota: El presente presupuesto es a todo costo, presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 377.6,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

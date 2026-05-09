@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma03.docx",
+  "text_snippet": "Servicio y Mantenimiento en General CORPORACION K.B.R.  R.U.C. 20613057651 R.P N°15724032  SERVICIO DE MANTENIMIENTO Y MECANIZADO INDUSTRIAL ELECTROMECANICO PLANTAS HIDROELECTRICAS, MINERAS, CHANCADORAS, ETC. Chosica, 09 de Octubre del 2025 PROFORMA Objeto: Mantenimiento preventivo y reemplazo de rodamientos - Máquina: Zarandeadora Cliente: Razón: Agrocondor RUC: 20501962598 TRABAJOS A REALIZAR: • Inspección general y diagnóstico de la zarandeadora. • Desmontaje y extracción de ejes y rodamientos afectados. • Reemplazo de rodamientos (2 unidades) y sellos de eje. • Limpieza, lubricación y verificación de tolerancias. • Realineamiento y ajuste de poleas y tensión de transmisión. • Pruebas de funcionamiento y entrega de informe técnico con recomendaciones. REPUESTOS Y MATERIALES (estimado): ",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 2737.6,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 2.0
+  }
+}

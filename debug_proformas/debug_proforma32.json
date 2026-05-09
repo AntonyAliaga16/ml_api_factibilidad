@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma32.docx",
+  "text_snippet": "Viernes, 21 de julio de 2025 Presupuesto Malla Raschel Medidas: 14 Mts. De ancho 35 Mts. De Largo 8 Mts. De Altura 420 Mts2. de Área Materiales: Malla rachells 95% de sombra Ojalillos Nº#20 Cable acerado de ¼” Cordón driza ¼” Hilo Nº#30 Cinta de 1” ½” Cangrejos 3/8” Tensionadores 3/8” Costos: Preparación de malla (Costura y remachado). X M2 S/. 12.00 x 420 M2\tS/. \t5,040.00 Instalación\tS/. \t500.00 Total,\tS/. \t5,540.00 Tiempo de entrega: 10 Días Nota: El presente presupuesto es a todo costo incluido costura y la instalación de la malla",
+  "used_ocr": false,
+  "reasons": [
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 10.0
+  }
+}

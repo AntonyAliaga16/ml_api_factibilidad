@@ -1,0 +1,15 @@
+{
+  "archivo": "proforma72.docx",
+  "text_snippet": "Miércoles, 11 de febrero 2015 Presupuesto Techado Área 7 Metros x 3 Metros Materiales:\tCantidad\tTotal S/. Planchas\t9\t284 Bastones de 3”\t100\t30 Tubos de 40” x 60” x2”\t3\t186 Tubos de 40” x 80” x 2.5”\t3\t300 Electrodo\t Kilos\t40 Pintura y thinner\t\t55 Disco de 14”\t1\t15 S/.910.00 Tiempo de entrega 4 Días Costo de Mano de obra: 200 x Día x 4 Días\t\tS/.800.00 Costo Total\t\tS/.1,710.00 Nota: El presente presupuesto es a todo costo, incluido Montaje de estructura y techado de cobertura",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "mat_cercano_a_materiales",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 1710.0,
+    "costoMateriales_candidate": 300.0,
+    "tiempo_candidate": 4.0
+  }
+}

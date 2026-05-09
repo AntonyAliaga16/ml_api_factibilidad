@@ -1,0 +1,15 @@
+{
+  "archivo": "proforma77.docx",
+  "text_snippet": "ASPECTOS COMERCIALES: Tiempo de entrega:\t30 Días Validez de presupuesto:    07 Días Forma de Pago\t:       50% contrato / 50% Contra entrega **Los valores no incluyen I.G.V. ***Los precios están expresados en NUEVOS SOLES ****El presente presupuesto es a todo costo Proyectos Y Servicios De Ingeniería En Metalmecánica Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería En Metalmecánica Visite: http://ingmetalmecanicas.blogspot.pe | Proyectos Y Servicios De Ingeniería",
+  "used_ocr": false,
+  "reasons": [
+    "mat_cercano_a_materiales",
+    "tiempo_por_pattern",
+    "sin_costo_total"
+  ],
+  "candidates": {
+    "costoTotal_candidate": null,
+    "costoMateriales_candidate": 8000.0,
+    "tiempo_candidate": 30.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma46.docx",
+  "text_snippet": "Sr(a). Alicia Vazques\tChosica, 1 de junio del 2025 Presupuesto Puerta plegable Medidas: Longitud: 3.20 Mts. Altura: 2.60 Mts. Materiales: Perfil en C de 2” × 3/4” (guías superiores e inferiores) Perfil en “C” de 1 1/2” × 1/2” (reja interior) Platina de 3/16” x 3/4” (Pliegue refuerzo) Remaches de 5/16” x 1 ¼” Soldadura 6011 x 1/8” Pintura anticorrosiva Thinner Costos: El costo por construcción pintura e instalación Costo total\tS/. 1,900.00 Tiempo de entrega:  6 días Nota: El primer no se está contando, El presente presupuesto es a todo costo, no incluida chapa, presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 1900.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 6.0
+  }
+}

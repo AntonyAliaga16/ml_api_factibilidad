@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma48.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\tChosica, 30 de mayo del 2025 Presupuesto Reparaciones Costos Asegurar (taladro y soldadura) Reja Ventana                                                           S/.   30,00 Enrejado de llaves de agua (costado del pozo)                                                        S/. 150,00 Adaptar caja de bomba con  bisagras (kiosko)                                                         S/.   50,00 Aumentar tubos en baranda para prevenir caídas (kiosko)                                   S/. 140,00 Fabricación e instalación de tapa de pozo (costado de baños)                             S/.   70,00 Aumentar cuadrado de 3/8” a baranda para prevenir caídas (piso 3 aulas)       S/.  50,00 Asegurar reja interior en ventana de aulas piso 3 con tarugos                         ",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 615.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

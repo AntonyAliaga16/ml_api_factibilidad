@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma20.docx",
+  "text_snippet": "Srs. Colegio TOCACHE\tChosica, 21 de marzo de 2025 Presupuesto Elaboración de malla raschel para cobertura (Costura, remachado, encintado y cableado) Medidas: Longitud: 38 Mts. Ancho: 28 Mts. Altura: 6Mts. (Instalación) Materiales: Malla raschel fibrafil al 95% de sombra Cinta de 2” gruesa de 2 m.m Cable acerado revestido de ¼” Driza de ¼” Ojalillos metálicos Nº 24 Seguros de cable (Cangrejos) tensionadores Costos: Costo aprox. Materiales\tS/.  6,500.00 Costo de mano de obra\tS/.  2,000.00 Costo total\tS/. 8,500.00 Nota: la malla raschel del presupuesto es de las mejores que instalamos, costo x rollo de 100 Mts. X 4.20 Mts. De ancho es de S/. 1,480.00 al 95% de sombra, existen también rollos al 80% de sombra a S/. 800.00",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 8500.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}

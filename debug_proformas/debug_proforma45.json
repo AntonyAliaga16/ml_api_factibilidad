@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma45.docx",
+  "text_snippet": "Sr(a). Palpa\tChosica, 16 de junio del 2025 Presupuesto Portón-reja, rejas y tripuntas Medidas: Portón\t: 3.2 Mts. De ancho x 2.5 Mts. De altura Reja\t: 7.5 Mts. De ancho x 2.5 Mts. De altura Tripuntas\t: 11 Mts. De largo x 70 Cms. Materiales: Cuadrado de 1 ¼” x 2.0 (Puerta y rejas) Angulo de 1 ¼” x 1/8 (Puerta) Platina de 1 ¼” x 1/8 (Puerta y reja) Fierro “T” 1 ¼” x 1/8 Soldadura Picaporte Bisagras Pintura anticorrosiva Costos: Costo aprox. De materiales\tS/. 1,800.00 Costo de mano obra\tS/. 1,700.00 Costo tripuntas x Mt. Lineales “S/.60.00 x 11Mts.”\tS/.     660.00 Costo total\tS/. 4,160.00 Tiempo de entrega:  7 días Nota: El presente presupuesto es a todo costo incluida instalación, “no incluye chapa”, presupuesto bajo R.H.E",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 4160.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 7.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma50.docx",
+  "text_snippet": "Sr. Ingenieros Chosica\t\tChosica, 30 de mayo del 2025 Presupuesto Reja Protectora de Ventana Parcial (Solo en hojas deslizantes) Medidas:\t                                      Lado 1 (oficina)                Lado 2 (patio)               Lado 3 (baño) 2do piso                               4 metros                           6,0 metros                     4 metros 3er piso                                4 metros                           6,0  metros                    4 metros 4to piso                                4 metros                           6,0  metros                      ----------- 1er piso(salón 1 y 4)          4 metros Total metros: 42 Mts. Materiales: Cuadrado solido de 3/8” Soldadura 6011 x 1/8”  indura Pintura anticorrosiva y de acabado Disolvente Costos: El costo por metro ",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 2478.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 4.0
+  }
+}

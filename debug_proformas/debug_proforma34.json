@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma34.docx",
+  "text_snippet": "Sr. Hector Quiñones\tLima, 22 de julio de 2025 Presupuesto (Estructuras metálicas para malla raschel) Medidas: Ancho: 18 Mts. Longitud: 76 Mts. Materiales: Tubo cuadrado de 2” x 2.0 Pintura anticorrosiva Thinner Soldadura 6011 1/8” indura Costos: Costo aproximado de materiales\tS/.\t1,400.00 Mano de obra (Construcción e instalación)\tS/.\t1,500.00 Instalación total de malla\tS/.\t1,000.00 Costo total\tS/.\t3,900.00 IGV\tS/.\t702.00 Total,\tS/.\t4,602.00 Tiempo de entrega: 7 Días Nota: El presente presupuesto es por la construcción e instalación de la estructura en dos frentes, esto es construcción de 2 vigas reticuladas de 18 Mts. Cada una De largo (se arma en el sitio) y su instalación, asumiendo que no necesita columnas porque hay techo o paredes donde instalar las vigas y se puedan sostener.",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 3900.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 7.0
+  }
+}

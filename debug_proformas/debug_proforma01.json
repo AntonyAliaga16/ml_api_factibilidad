@@ -1,0 +1,14 @@
+{
+  "archivo": "proforma01.docx",
+  "text_snippet": "Servicio Mant. Industrial y reparaciones en Gral. TORNO - FRESADORA Estructuras Metálicas SOLDADURA ELECTRICA Y AUTOGENA  R.U.C. 10068110217 FABRICACION DE REPUESTOS EN GRAL.  CONSUCODE 80088260 TALADRO  MANTENIMIENTO DE EQUIPOS MINEROS Presupuesto Fabricación e instalación de Portón Corredizo Industrial Especificaciones Técnicas: Medidas: • Ancho del portón: 4.5 Mts. • Altura: 2.5 Mts. • Cantidad: 1 unidad • Apertura: Corrediza sobre riel superior e inferior Materiales: • Perfil estructural tubular 80x40x3 mm (marco) • Perfil tubular 40x20x2 mm (refuerzos internos) • Chapa galvanizada 1.2 mm (revestimiento) • Rieles guía y ruedas de nylon de alta resistencia • Pintura epóxica y esmalte poliuretano (antioxidante) • Tornillería, pernos, soldadura y accesorios varios Costos: Precio unitario ",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario",
+    "tiempo_por_pattern"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 2850.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": 12.0
+  }
+}

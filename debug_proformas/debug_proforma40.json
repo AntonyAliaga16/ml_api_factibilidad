@@ -1,0 +1,13 @@
+{
+  "archivo": "proforma40.docx",
+  "text_snippet": "REPARACION DE COMPONENTES DE TURBINA Y PALETAS (SOLDADURA Y PULIDO) NOTA: En el ítem turbinas incluye el normalizado (tratamiento térmico para el alivio de tensiones producido por la soldadura, y el maquinado) COSTOS S/. | MANO DE OBRA | MATERIALES | TIEMPO DIAS | TIEMPO DIAS | ALQUILER EQUIPOS | ALQUILER EQUIPOS SOLDADURA | PULIDO | MAQ.SOLDAR | PULIDORA PALETAS | 6,800 | 2,200 | 8 | 9 | 650 TURBINAS | 10,500 | 3,200 | 22 | 28 | 2,000 SUB TOTAL | 17,300 | 5,400 | 2,650 COSTO TOTAL | S/25350.00 | S/25350.00 | S/25350.00 | S/25350.00 | S/25350.00 | S/25350.00",
+  "used_ocr": false,
+  "reasons": [
+    "costo_por_patron_prioritario"
+  ],
+  "candidates": {
+    "costoTotal_candidate": 25350.0,
+    "costoMateriales_candidate": null,
+    "tiempo_candidate": null
+  }
+}
