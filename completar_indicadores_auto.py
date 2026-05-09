@@ -1,140 +1,213 @@
 """
 completar_indicadores_auto.py
 -------------------------------------
-Detecta el dataset más reciente generado por extract_proformas_advanced.py
-y completa los indicadores ROI, CCC e ICJ con valores realistas, sin borrar datos previos.
-
-Uso:
-  python completar_indicadores_auto.py
+Completa ROI y MBB automáticamente
+en el dataset más reciente.
 """
 
 import os
 import pandas as pd
 from datetime import datetime
 
-# -------- Funciones de ayuda --------
+# LIMPIAR NUMEROS
 def clean_number(x):
-    """Convierte valores tipo 'S/. 12,000.50' o '12.000,50' en float."""
+
     if pd.isna(x):
         return None
+
     if isinstance(x, (int, float)):
         return float(x)
+
     x = str(x)
-    x = x.replace("S/.", "").replace("S/", "").replace("$", "").replace("s/", "").strip()
-    x = x.replace(",", "")
+
+    x = (
+        x.replace("S/.", "")
+         .replace("S/", "")
+         .replace("$", "")
+         .replace("s/", "")
+         .replace(",", "")
+         .strip()
+    )
+
     try:
         return float(x)
-    except ValueError:
+    except:
         return None
 
 
-def calcular_indicadores(costo_total, costo_mat=None, tiempo=None):
-    """Devuelve ROI, CCC e ICJ con valores realistas."""
+# CALCULAR INDICADORES
+def calcular_indicadores(
+    costo_total,
+    costo_mat=None
+):
+
     if not costo_total or costo_total <= 0:
-        return None, None, None
+        return None, None
 
-    # --- ROI (Rentabilidad sobre la inversión) ---
+    # GANANCIA
+    ganancia = costo_total - (
+        costo_mat if costo_mat else 0
+    )
+
+    # ROI
     if costo_mat and costo_mat > 0:
-        ganancia = costo_total - costo_mat
-        roi = round((ganancia/costo_total) * 100, 2)
+        roi = round(
+            (ganancia / costo_mat) * 100,
+            2
+        )
     else:
-        # márgenes realistas según tamaño del proyecto
-        if costo_total < 10000:
-            roi = 25.0
-        elif costo_total < 50000:
-            roi = 20.0
-        else:
-            roi = 15.0
+        roi = 0
 
-    # --- CCC (Ciclo de Conversión de Caja) ---
-    if tiempo and tiempo > 0:
-        ccc = round(tiempo + (costo_total / 100000), 2)  # más grande el proyecto, más demora
-    else:
-        if costo_total < 10000:
-            ccc = 30
-        elif costo_total < 50000:
-            ccc = 35
-        else:
-            ccc = 45
+    # MBB
+    mbb = round(
+        (ganancia / costo_total) * 100,
+        2
+    )
 
-    # --- ICJ (Índice de Capacidad de Justificación) ---
-    if costo_mat and costo_mat > 0:
-        ganancia = costo_total - costo_mat
-        icj = round(ganancia / (costo_mat + 0.1 * costo_total), 3)
-    else:
-        ganancia = costo_total * (roi / 100)
-        icj = round(ganancia / (0.3 * costo_total), 3)
-
-    return roi, ccc, icj
+    return roi, mbb
 
 
+# BUSCAR DATASET
 def buscar_csv_mas_reciente():
-    """Busca el archivo CSV de proformas más reciente en la carpeta actual."""
-    archivos = [f for f in os.listdir(".") if f.startswith("proformas_dataset_") and f.endswith(".csv")]
+
+    archivos = [
+        f for f in os.listdir(".")
+        if f.startswith("proformas_dataset_")
+        and f.endswith(".csv")
+    ]
+
     if not archivos:
-        print("❌ No se encontró ningún archivo que empiece con 'proformas_dataset_'.")
+        print("No se encontró dataset.")
         return None
-    archivos.sort(key=lambda f: os.path.getmtime(f), reverse=True)
+
+    archivos.sort(
+        key=lambda f: os.path.getmtime(f),
+        reverse=True
+    )
+
     return archivos[0]
 
 
-# -------- Programa principal --------
+# MAIN
 def main():
+
     archivo = buscar_csv_mas_reciente()
+
     if not archivo:
         return
 
-    print(f"📁 Usando dataset más reciente: {archivo}")
+    print(f"Usando dataset: {archivo}")
 
-    # Intentar leer CSV con la codificación correcta
+    # LEER CSV
     try:
-        df = pd.read_csv(archivo, sep=";", quotechar='"', engine="python", encoding="utf-8")
-    except Exception:
-        print("⚠️ Reintentando lectura con codificación Latin-1...")
-        df = pd.read_csv(archivo, sep=";", quotechar='"', engine="python", encoding="latin1")
+        df = pd.read_csv(
+            archivo,
+            sep=";",
+            quotechar='"',
+            engine="python",
+            encoding="utf-8"
+        )
+    except:
+        df = pd.read_csv(
+            archivo,
+            sep=";",
+            quotechar='"',
+            engine="python",
+            encoding="latin1"
+        )
 
-    # Si por alguna razón no se separaron bien las columnas, intentar con coma
+    # SI FALLA SEPARADOR
     if len(df.columns) == 1:
         try:
-            df = pd.read_csv(archivo, sep=",", quotechar='"', engine="python", encoding="latin1")
+            df = pd.read_csv(
+                archivo,
+                sep=",",
+                engine="python",
+                encoding="latin1"
+            )
         except:
             pass
 
-    # Asegurar columnas
-    for col in ["costoTotal", "costoMateriales", "tiempoEntrega", "roi", "ccc", "icj"]:
+    # ASEGURAR COLUMNAS
+    for col in [
+        "costoTotal",
+        "costoMateriales",
+        "roi",
+        "mbb"
+    ]:
         if col not in df.columns:
             df[col] = None
 
-    # Limpiar datos numéricos
-    df["costoTotal"] = df["costoTotal"].apply(clean_number)
-    df["costoMateriales"] = df["costoMateriales"].apply(clean_number)
-    df["tiempoEntrega"] = df["tiempoEntrega"].apply(clean_number)
+    # LIMPIEZA
+    df["costoTotal"] = (
+        df["costoTotal"]
+        .apply(clean_number)
+    )
 
-    # Calcular nuevos indicadores solo donde falten
-    nuevos_roi, nuevos_ccc, nuevos_icj = [], [], []
+    df["costoMateriales"] = (
+        df["costoMateriales"]
+        .apply(clean_number)
+    )
+
+    # CALCULAR
+    nuevos_roi = []
+    nuevos_mbb = []
+
     for _, row in df.iterrows():
-        if pd.isna(row["roi"]) or pd.isna(row["ccc"]) or pd.isna(row["icj"]):
-            roi, ccc, icj = calcular_indicadores(
-                row["costoTotal"], row["costoMateriales"], row["tiempoEntrega"]
+
+        if (
+            pd.isna(row["roi"])
+            or pd.isna(row["mbb"])
+        ):
+
+            roi, mbb = calcular_indicadores(
+                row["costoTotal"],
+                row["costoMateriales"]
             )
+
         else:
-            roi, ccc, icj = row["roi"], row["ccc"], row["icj"]
+            roi = row["roi"]
+            mbb = row["mbb"]
 
         nuevos_roi.append(roi)
-        nuevos_ccc.append(ccc)
-        nuevos_icj.append(icj)
+        nuevos_mbb.append(mbb)
 
+    # ACTUALIZAR
     df["roi"] = nuevos_roi
-    df["ccc"] = nuevos_ccc
-    df["icj"] = nuevos_icj
+    df["mbb"] = nuevos_mbb
 
-    # Guardar nuevo archivo
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    salida = f"proformas_dataset_completado_{timestamp}.csv"
-    df.to_csv(salida, index=False)
-    print(f"✅ Archivo completado guardado como: {salida}")
-    print(f"📊 Filas procesadas: {len(df)}")
-    print("🏁 Proceso finalizado correctamente.")
+    # ELIMINAR COLUMNAS OBSOLETAS
+    columnas_eliminar = []
+
+    for col in ["ccc", "icj"]:
+
+        if col in df.columns:
+            columnas_eliminar.append(col)
+
+    if columnas_eliminar:
+        df.drop(
+            columns=columnas_eliminar,
+            inplace=True
+        )
+
+    # GUARDAR
+    timestamp = datetime.now().strftime(
+        "%Y%m%d_%H%M%S"
+    )
+
+    salida = (
+        f"proformas_dataset_completado_"
+        f"{timestamp}.csv"
+    )
+
+    df.to_csv(
+        salida,
+        index=False
+    )
+
+    print(f"Archivo guardado: {salida}")
+    print(f"Filas: {len(df)}")
+    print("Proceso completado.")
 
 
 if __name__ == "__main__":
