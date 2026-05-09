@@ -1,9 +1,14 @@
 flask
 flask-cors
 pandas
+numpy
 scikit-learn
 joblib
 python-docx
-numpy
 requests
 gunicorn
+
+# Para PDFs
+pymupdf
+pillow
+pytesseract
